@@ -13,8 +13,6 @@ Light a candle and pray for a loved one, for a cause, or for yourself.
 
 == Description ==
 
-I am not a programmer, but I needed this kind of plugin, so I built it starting from the plugin Clean Testimonials, https://wordpress.org/plugins/clean-testimonials/, with author: lukerollans. And now I want to share it with you.
-
 In Memoriam (Light a Candle) enables you and your site's visitors to easily and quickly light candles in the the memory of a died person, to support a cause, or even for your own wellness. The plugin integrates seamlessly with your existing WordPress admin area, so you will feel right at home.
 
 There are a few simple ways to manage your candles:
@@ -142,3 +140,8 @@ The following information might be handy for you to know.
 == Upgrade Notice ==
 
 No upgrade notice necessary
+
+
+== Aknowledgement ==
+
+I am not a programmer, but I needed this kind of plugin, so I built it starting from the plugin Clean Testimonials, https://wordpress.org/plugins/clean-testimonials/, with author: lukerollans. And now I want to share it with you.
