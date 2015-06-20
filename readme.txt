@@ -64,6 +64,14 @@ For Mac Users*: Go to your Downloads folder and locate the folder with the galle
 8. See FAQ section for more shortcodes.
 9. Manage the candles from the control panel, using the menu Candles.
 
+If you get an error something like "An internal error occurred: 518E5D10893F9.A6B37D5.9F002051", you have to replace the existing keys for reCAPTCHA with your own keys. For this:
+
+a) Go to https://www.google.com/recaptcha/admin, register your site and get the Site key and Secret key.
+b) Replace, in shortcodes.php, the existing keys from 
+echo recaptcha_get_html('SITE_KEY') 
+and 
+recaptcha_check_answer('SECRET_KEY'
+
 == Frequently Asked Questions ==
 
 = Can candles be submitted by my visitors automatically? =
