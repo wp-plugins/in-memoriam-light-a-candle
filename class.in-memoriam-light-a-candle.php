@@ -97,8 +97,7 @@ final class Plugify_Light_Candles {
 		);
 
 		// Register the post type
-		register_post_type( 'candle',
-			array(
+		$args = array(
 				 'labels' => $post_type_labels,
 				 'singular_label' => __( 'Candle', 'in-memoriam-light-a-candle' ),
 				 'public' => true,
@@ -109,10 +108,11 @@ final class Plugify_Light_Candles {
 				 'hierarchical' => false,
 				 'rewrite' => array( 'slug' => 'candle' ),
 				 'query_var' => 'candle',
-				 'supports' => array( 'title', 'editor', 'thumbnail' ),
+				 'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
 				 'menu_position' => 5
-			)
-		);
+			);
+					register_post_type( 'candle', $args );
+					flush_rewrite_rules();
 
 		/*≈=====≈=====≈=====≈=====≈=====≈=====≈=====
 		Candle Taxonomy
@@ -163,7 +163,7 @@ final class Plugify_Light_Candles {
 		$installed = get_option( 'ct_activated' );
 
 		if( time() >= ( $installed + ( 86400 * 14 ) ) && !get_option( 'ct_prompted' ) ) {
-			echo '<div id="message" class="updated"><p>' . __( 'Loving In Memoriam (Light a Candle)? Help support development by <a href="https://www.paypal.com/...." target="_blank">buying us a coffee</a>, or leave a <a href="http://wordpress.org/support/view/plugin-reviews/in-memoriam-light-a-candle?filter=5" target="_blank">rating for us!</a> You\'ll never see this again, don\'t worry.', 'in-memoriam-light-a-candle' ) . '</p></div>';
+			echo '<div id="message" class="updated"><p>' . __( 'Loving In Memoriam (Light a Candle)? Help support development by <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTBXYQ5JMC89J" target="_blank">buying us a coffee</a>, or leave a <a href="http://wordpress.org/support/view/plugin-reviews/in-memoriam-light-a-candle?filter=5" target="_blank">rating for us!</a> You\'ll never see this again, don\'t worry.', 'in-memoriam-light-a-candle' ) . '</p></div>';
 			update_option( 'ct_prompted', 'yes' );
 		}
 
@@ -178,7 +178,7 @@ final class Plugify_Light_Candles {
 	public static function candle_columns ( $columns ) {
 
 		unset( $columns['date'] );
-		$columns['candle_prayer_name'] = __( 'Prayer', 'in-memoriam-light-a-candle' );
+		$columns['candle_prayer_name'] = __( 'Name', 'in-memoriam-light-a-candle' );
 		$columns['candle_prayer_location_name'] = __( 'Location', 'in-memoriam-light-a-candle' );
 		$columns['candle_category'] = __( 'Category', 'in-memoriam-light-a-candle' );
 		$columns['candle_shortcode'] = __( 'Shortcode', 'in-memoriam-light-a-candle' );
@@ -218,12 +218,12 @@ final class Plugify_Light_Candles {
 				echo sprintf( '[candle id="%s"]', $post->ID );
 				break;
 
-			case 'testimonial_thumbnail':
+			case 'candle_thumbnail':
 
 				if( has_post_thumbnail( $post->ID ) )
-					echo wp_get_attachment_image( get_post_thumbnail(  ), array( 64, 64 ) );
+					echo '<img src="' . plugins_url( 'candle.jpg', __FILE__ ) . '" width="200" height="200" align="left"> ';
 				else
-					echo __( 'No thumbnail supplied', 'in-memoriam-light-a-candle' );
+					echo '<img src="' . plugins_url( 'candle.jpg', __FILE__ ) . '" width="200" height="200" align="left"> ';
 
 				break;
 

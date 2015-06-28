@@ -111,10 +111,13 @@ msgid ""
 msgstr ""
 
 #: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:181
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:244
 msgid "Name"
 msgstr ""
 
 #: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:182
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:276
+#: in-memoriam-light-a-candle/lib/shortcodes.php:287
 msgid "Location"
 msgstr ""
 
@@ -140,28 +143,31 @@ msgstr ""
 msgid "No thumbnail supplied"
 msgstr ""
 
-#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:245
-msgid "Name"
-msgstr ""
-
 #: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:247
 msgid "Slug"
 msgstr ""
 
-#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:271
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:156
+msgid "Prayer Details"
+msgstr ""
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:270
 msgid "Prayer Name"
 msgstr ""
 
-#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:273
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:272
 msgid "The name of the prayer lighting this candle"
 msgstr ""
 
-#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:276
-#: in-memoriam-light-a-candle/lib/shortcodes.php:287
-msgid "Location"
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:275
+msgid "Location Name"
 msgstr ""
 
-#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:276
+#: in-memoriam-light-a-candle/lib/shortcodes.php:256
+msgid "Location (optional):"
+msgstr ""
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:277
 msgid "Location, if any"
 msgstr ""
 
@@ -198,24 +204,28 @@ msgid ""
 "CAPTCHA code correctly."
 msgstr ""
 
-#: in-memoriam-light-a-candle/lib/shortcodes.php:263
-msgid "Praying For"
+#: in-memoriam-light-a-candle/lib/shortcodes.php:253
+msgid "Praying For:"
 msgstr ""
 
-#: in-memoriam-light-a-candle/lib/shortcodes.php:266
-msgid "Prayer Intention"
+#: in-memoriam-light-a-candle/lib/shortcodes.php:259
+msgid "Prayer Intention:"
 msgstr ""
 
-#: in-memoriam-light-a-candle/lib/shortcodes.php:269
-msgid "Category (optional)"
+#: in-memoriam-light-a-candle/lib/shortcodes.php:262
+msgid "Category (optional):"
 msgstr ""
 
-#: in-memoriam-light-a-candle/lib/shortcodes.php:272
+#: in-memoriam-light-a-candle/lib/shortcodes.php:265
 msgid "None"
 msgstr ""
 
-#: in-memoriam-light-a-candle/lib/shortcodes.php:284
-msgid "Your Name"
+#: in-memoriam-light-a-candle/lib/shortcodes.php:277
+msgid "Your Name:"
+msgstr ""
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:296
+msgid "Submit Candle"
 msgstr ""
 
 #: in-memoriam-light-a-candle/lib/shortcodes.php:287
