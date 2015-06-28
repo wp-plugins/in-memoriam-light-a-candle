@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: In Memoriam (Light a Candle)\n"
+"POT-Creation-Date: 2014-06-12 19:16+0800\n"
+"PO-Revision-Date: 2015-06-28 22:08+0200\n"
+"Last-Translator: Nicolae Sfetcu\n"
+"Language-Team: MultiMedia <office@multimedia.com.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: ro_RO\n"
+"X-Poedit-SearchPath-0: /in-memoriam-light-a-candle\n"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:86
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:248
+msgid "Candles"
+msgstr "Lumânări"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:87
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:103
+msgid "Candle"
+msgstr "Lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:88
+msgid "Add New"
+msgstr "Adaugă"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:89
+msgid "Add New Candle"
+msgstr "Adaugă o nouă lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:90
+msgid "Edit Candle"
+msgstr "Editează lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:91
+msgid "New Candle"
+msgstr "Lumânare nouă"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:92
+msgid "View Candle"
+msgstr "Vezi lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:93
+msgid "Search Candles"
+msgstr "Caută lumânări"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:94
+msgid "No candle found"
+msgstr "Nu s-a găsit nicio lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:95
+msgid "No candle found in the trash"
+msgstr "Nu s-a găsit nicio lumânare la gunoi"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:122
+msgid "Candle Categories"
+msgstr "Categorii lumânări"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:123
+msgid "Candle Category"
+msgstr "Categorie lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:124
+msgid "Search Candle Categories"
+msgstr "Caută categorii lumânări"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:125
+msgid "All Candle Categories"
+msgstr "Toate categoriile pentru lumânări"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:126
+msgid "Parent Candle Categories"
+msgstr "Categorii părinte lumânări"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:127
+msgid "Parent Candle Category"
+msgstr "Categorie părinte lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:128
+msgid "Edit Candle Category"
+msgstr "Editează categorie lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:129
+msgid "Update Candle Category"
+msgstr "Actualizează categorie lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:130
+msgid "Add New Candle Category"
+msgstr "Adaugă nouă categorie lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:131
+msgid "New Candle Category"
+msgstr "Categorie nouă lumânare"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:132
+msgid "Categories"
+msgstr "Categorii"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:166
+msgid "Loving In Memoriam (Light a Candle)? Help support development by <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTBXYQ5JMC89J\" target=\"_blank\">buying us a coffee</a>, or leave a <a href=\"http://wordpress.org/support/view/plugin-reviewsin-memoriam-light-a-candle?filter=5\" target=\"_blank\">rating for us!</a> You'll never see this again, don't worry."
+msgstr "Îţi place In Memoriam (Light a Candle)? Sprijină dezvoltarea sa <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTBXYQ5JMC89J\" target=\"_blank\">cumpărându-ne o cafea</a>, sau <a href=\"http://wordpress.org/support/view/plugin-reviewsin-memoriam-light-a-candle?filter=5\" target=\"_blank\">votându-ne!</a> Fii fără grijă, mesajul acesta nu va mai apare."
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:181
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:244
+msgid "Name"
+msgstr "Nume"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:182
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:276
+#: in-memoriam-light-a-candle/lib/shortcodes.php:287
+msgid "Location"
+msgstr "Locaţie"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:183
+msgid "Category"
+msgstr "Categorie"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:184
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:246
+msgid "Shortcode"
+msgstr "Cod scurt"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:185
+#: in-memoriam-light-a-candle/lib/shortcodes.php:296
+msgid "Thumbnail"
+msgstr "Miniatură"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:187
+msgid "Date"
+msgstr "Data"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:227
+msgid "No thumbnail supplied"
+msgstr "Nu există miniatură"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:247
+msgid "Slug"
+msgstr "Slug"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:156
+msgid "Prayer Details"
+msgstr "Detalii pentru cel care se roagă"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:270
+msgid "Prayer Name"
+msgstr "Nume autor"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:272
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:275
+msgid "Location Name"
+msgstr "Nume locaţie"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:256
+msgid "Location (optional):"
+msgstr "Locaţia (opţional):"
+
+#: in-memoriam-light-a-candle/class.in-memoriam-light-a-candle.php:277
+msgid "Location, if any"
+msgstr "Locaţia, dacă există"
+
+#: in-memoriam-light-a-candle/class.Candles-widget.php:93
+msgid "Title"
+msgstr "Titlu"
+
+#: in-memoriam-light-a-candle/class.Candles-widget.php:98
+msgid "Select a Candle to display"
+msgstr "Selectează o lumânare pentru afişare"
+
+#: in-memoriam-light-a-candle/class.Candles-widget.php:100
+msgid "Random"
+msgstr "La întâmplare"
+
+#: in-memoriam-light-a-candle/class.Candles-widget.php:113
+msgid "Word limit (optional)"
+msgstr "Limită cuvinte (opţional)"
+
+#: in-memoriam-light-a-candle/class.Candles-widget.php:119
+msgid "If random, get from specific category (optional)"
+msgstr "Dacă e la întâmplare, specifică o categorie (opţional)"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:244
+msgid "We successfully received your Candle. If approved, it will appear on our website. Thank you!"
+msgstr "Am primit lumânarea ta. În momentul în care va fi aprobată, va apare afişată pe site. Mulţumim!"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:248
+msgid "Sorry, but there was a problem with submitting your Candle. Please ensure all required fields have been supplied and that you entered the CAPTCHA code correctly."
+msgstr "Scuze, dar a fost o problema la completarea formularului pentru lumânarea ta. Asigurî-te ca sunt toate câmpurile obligatorii completate şi că introduci corect codul CAPTCHA."
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:253
+msgid "Praying For:"
+msgstr "Rugăciune pentru:"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:259
+msgid "Prayer Intention:"
+msgstr "Rugăciunea:"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:262
+msgid "Category (optional):"
+msgstr "Categorie (opţional):"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:265
+msgid "None"
+msgstr "Nicuna"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:277
+msgid "Your Name:"
+msgstr "Numele tău:"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:296
+msgid "Submit Candle"
+msgstr "Transmite lumânarea"
+
+#: in-memoriam-light-a-candle/lib/shortcodes.php:287
+#: in-memoriam-light-a-candle/lib/shortcodes.php:290
+#: in-memoriam-light-a-candle/lib/shortcodes.php:293
+#: in-memoriam-light-a-candle/lib/shortcodes.php:296
+msgid "(optional)"
+msgstr "(opţional)"
