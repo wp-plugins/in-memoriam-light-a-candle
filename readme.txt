@@ -44,6 +44,7 @@ If you have found this plugin useful, consider taking a moment to rate it, or pe
 *English by default). If you translated it in a need language please contact us to include it in the next release. If you find any mistakes in the translation, please contact us and we will make relevant corrections.*  
 
 Romanian (ro_RO)
+Polish (pl_PL)
 
 = Resources =
 
