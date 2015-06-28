@@ -44,6 +44,7 @@ If you have found this plugin useful, consider taking a moment to rate it, or pe
 *English by default). If you translated it in a need language please contact us to include it in the next release. If you find any mistakes in the translation, please contact us and we will make relevant corrections.*  
 
 Romanian (ro_RO)
+Polish (pl_PL)
 
 = Resources =
 
@@ -144,6 +145,10 @@ The following information might be handy for you to know.
 
 = 1.0 =
 * Initial release of plugin
+
+= 1.0.2 =
+* Added Polish language (thanks to Boguslaw Górecki)
+* Improved translation
 
 == Upgrade Notice ==
 
